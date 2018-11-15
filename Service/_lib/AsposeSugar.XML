@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<doc>
+    <assembly>
+        <name>AsposeSugar</name>
+    </assembly>
+    <members>
+        <member name='T:AsposeSugar.ExcelColumns'>
+            <summary>
+            excel列信息
+            </summary>
+        </member>
+        <member name='T:AsposeSugar.ExcelColumnsGroup'>
+            <summary>
+            表头分组信息
+            </summary>
+        </member>
+        <member name='M:AsposeSugar.AsCellSugar.Export(System.String,System.Data.DataSet)'>
+            <summary>
+            导出EXCEL并且动态生成多级表头
+            </summary>
+            <param name='columns'>列</param>
+            <param name='group'>分组</param>
+            <param name='ds'>DataSet</param>
+            <param name='path'>保存路径</param>
+        </member>
+        <member name='M:AsposeSugar.AsCellSugar.Export(System.String,System.Data.DataTable)'>
+            <summary>
+            导出excel
+            </summary>
+            <param name='fileName'></param>
+            <param name='columns'>列</param>
+            <param name='dt'>数据源</param>
+        </member>
+        <member name='M:AsposeSugar.AsCellSugar.Save(System.String,System.Data.DataTable)'>
+            <summary>
+            保存excel
+            </summary>
+            <param name='filePath'></param>
+            <param name='filePath'>保存路径</param>
+            <param name='dt'>数据源</param>
+        </member>
+        <member name='M:AsposeSugar.AsCellSugar.SaveColumnsHierarchy(System.Data.DataSet,System.String)'>
+            <summary>
+            导出EXCEL并且动态生成多级表头
+            </summary>
+            <param name='columns'>列</param>
+            <param name='group'>分组</param>
+            <param name='ds'>dataTable</param>
+            <param name='path'>保存路径</param>
+        </member>
+        <member name='M:AsposeSugar.AsCellSugar.SaveColumnsHierarchy(System.Collections.Generic.List{AsposeSugar.ExcelColumns},System.Collections.Generic.List{AsposeSugar.ExcelColumnsGroup},System.Data.DataTable,System.String)'>
+            <summary>
+            导出EXCEL并且动态生成多级表头
+            </summary>
+            <param name='columns'>列</param>
+            <param name='group'>分组</param>
+            <param name='dt'>dataTable</param>
+            <param name='path'>保存路径</param>
+        </member>
+        <member name='M:AsposeSugar.AsCellSugar.ExportColumnsHierarchy(System.String,System.Collections.Generic.List{AsposeSugar.ExcelColumns},System.Collections.Generic.List{AsposeSugar.ExcelColumnsGroup},System.Data.DataTable)'>
+            <summary>
+            导出EXCEL并且动态生成多级表头
+            </summary>
+            <param name='columns'>列</param>
+            <param name='group'>分组</param>
+            <param name='dt'>dataTable</param>
+            <param name='path'>保存路径</param>
+        </member>
+    </members>
+</doc>

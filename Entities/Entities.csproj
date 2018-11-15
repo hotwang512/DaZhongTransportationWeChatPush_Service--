@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90C64637-CD09-43F8-8C0E-6A5B50CC13D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entities</RootNamespace>
+    <AssemblyName>Entities</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableEntity\Business_Enterprisepayment_Information.cs" />
+    <Compile Include="TableEntity\Business_ExercisesAnswerDetail_Information.cs" />
+    <Compile Include="TableEntity\Business_ExercisesAnswer_Information.cs" />
+    <Compile Include="TableEntity\Business_ExercisesDetail_Infomation.cs" />
+    <Compile Include="TableEntity\Business_Exercises_Infomation.cs" />
+    <Compile Include="TableEntity\Business_OperationLog.cs" />
+    <Compile Include="TableEntity\Business_Personnel_Information.cs" />
+    <Compile Include="TableEntity\Business_Redpacket_Push_Information.cs" />
+    <Compile Include="TableEntity\Business_WeChatPushDetail_Information.cs" />
+    <Compile Include="TableEntity\Business_WeChatPush_Information.cs" />
+    <Compile Include="TableEntity\Business_WeChatPush_MoreGraphic_Information.cs" />
+    <Compile Include="TableEntity\CS_Master_1.cs" />
+    <Compile Include="TableEntity\CS_Master_2.cs" />
+    <Compile Include="TableEntity\Master_Organization.cs" />
+    <Compile Include="TableEntity\Sys_Module.cs" />
+    <Compile Include="TableEntity\Sys_Role.cs" />
+    <Compile Include="TableEntity\Sys_Role_Module.cs" />
+    <Compile Include="TableEntity\Sys_User.cs" />
+    <Compile Include="UserDefinedEntity\U_Content.cs" />
+    <Compile Include="UserDefinedEntity\U_AccessToken.cs" />
+    <Compile Include="UserDefinedEntity\U_Deparment.cs" />
+    <Compile Include="UserDefinedEntity\U_Notification_Teamp_Para.cs" />
+    <Compile Include="UserDefinedEntity\U_OpenInfo.cs" />
+    <Compile Include="UserDefinedEntity\U_Para.cs" />
+    <Compile Include="UserDefinedEntity\U_Revenue_Temp_Para.cs" />
+    <Compile Include="UserDefinedEntity\U_Temp_Para.cs" />
+    <Compile Include="UserDefinedEntity\U_UploadResult.cs" />
+    <Compile Include="UserDefinedEntity\U_UpLoadSource.cs" />
+    <Compile Include="UserDefinedEntity\U_User.cs" />
+    <Compile Include="UserDefinedEntity\U_VerificationCode_Temp_Para.cs" />
+    <Compile Include="UserDefinedEntity\U_WeChatResult.cs" />
+    <Compile Include="UserDefinedEntity\U_WeChatUser.cs" />
+    <Compile Include="UserDefinedEntity\U_WeChatUserResult.cs" />
+    <Compile Include="ViewEntity\V_UserNotexistsmiddata.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
