@@ -481,6 +481,9 @@ namespace Service.PushFunction.WeChatPush
                 case MsgType.Salary:
                     pt = new SalaryPush();                //工资条推送
                     break;
+                case MsgType.Question:
+                    pt = new QuestionPush();
+                    break;
             }
             return pt;
         }

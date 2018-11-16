@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using ServiceLog;
+using System.Threading;
 
 namespace Service
 {
@@ -209,6 +210,7 @@ namespace Service
                             LogManager.WriteLog(LogFile.Error, ex.ToString());
                         }
                     }
+                    Thread.Sleep(5*1000);
                 }
             }
             catch (Exception ex)
@@ -303,7 +305,7 @@ namespace Service
                 }
                 catch (Exception exp)
                 {
-                    LogManager.WriteLog(LogFile.Error, "同步人员状态：" + result + "/n"+ exp);
+                    LogManager.WriteLog(LogFile.Error, "同步人员状态：" + result + "/n" + exp);
                 }
                 time++;
             }

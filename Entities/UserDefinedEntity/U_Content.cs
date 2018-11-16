@@ -82,7 +82,14 @@ namespace Entities.UserDefinedEntity
         /// 习题Vguid
         /// </summary>
         public Guid ExercisesVGUID { get; set; }
-
+        /// <summary>
+        /// 知识库Vguid
+        /// </summary>
+        public Guid KnowledgeVGUID { get; set; }
+        /// <summary>
+        /// 习题Vguid
+        /// </summary>
+        public Guid QuestionVGUID { get; set; }
         /// <summary>
         /// 推送对象
         /// </summary>

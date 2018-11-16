@@ -78,6 +78,7 @@
     <Compile Include="PushFunction\WeChatPush\MultipleTextAndImgPush.cs" />
     <Compile Include="PushFunction\WeChatPush\PaymentPush.cs" />
     <Compile Include="PushFunction\WeChatPush\PushWeChat.cs" />
+    <Compile Include="PushFunction\WeChatPush\QuestionPush.cs" />
     <Compile Include="PushFunction\WeChatPush\RedPacketPush.cs" />
     <Compile Include="PushFunction\WeChatPush\RevenuePush.cs" />
     <Compile Include="PushFunction\WeChatPush\SalaryPush.cs" />

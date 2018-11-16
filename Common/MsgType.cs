@@ -44,7 +44,7 @@ namespace Common
         /// <summary>
         /// 知识库推送
         /// </summary>
-        KnowledgeBase =6,
+        KnowledgeBase = 6,
 
         /// <summary>
         /// 多图文推送
@@ -77,23 +77,26 @@ namespace Common
         /// <summary>
         /// 协议推送
         /// </summary>
-        Agreement=12,
+        Agreement = 12,
 
         /// <summary>
         /// 红包
         /// </summary>
-        RedPacket=13,
+        RedPacket = 13,
 
         /// <summary>
         /// 向员工付款
         /// </summary>
-        Payment=14,
+        Payment = 14,
 
         /// <summary>
         /// 工资条推送
         /// </summary>
-        Salary=15
-
+        Salary = 15,
+        /// <summary>
+        /// 问卷推送
+        /// </summary>
+        Question = 16
 
     }
 }
